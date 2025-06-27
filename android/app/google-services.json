@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437589353894",
+    "project_id": "greenbooks-9cff5",
+    "storage_bucket": "greenbooks-9cff5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437589353894:android:9c61008049eb4447051b67",
+        "android_client_info": {
+          "package_name": "com.example.green_books"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZm-D72aq6v1qEpt31slt56ah5da5Xajk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

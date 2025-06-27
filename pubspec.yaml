@@ -1,0 +1,60 @@
+name: green_books
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.12.3
+  geolocator: ^14.0.1
+  http: ^1.2.1 # Add this line
+  url_launcher: ^6.3.1 # Add this line
+  file_picker: ^10.2.0
+  firebase_core: ^3.14.0
+  firebase_storage: ^12.4.7
+  cloud_firestore: ^5.6.9
+  cupertino_icons: ^1.0.8
+  cunning_document_scanner: ^1.2.3
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+  firebase_auth: ^5.6.0
+  logging: ^1.1.0
+  image_picker: ^1.1.2
+  shared_preferences: ^2.5.3
+  firebase_app_check: ^0.3.2+7
+  cached_network_image: ^3.4.1
+  _flutterfire_internals: ^1.3.56
+  flutter_launcher_icons: ^0.14.4
+  flutter_doc_scanner: ^0.0.16
+  open_file: ^3.5.10
+  flutter_pdfview: ^1.4.0+1
+  shimmer: ^3.0.0
+  printing: ^5.14.2
+  syncfusion_flutter_pdfviewer: ^29.2.11
+  firebase_ai: ^2.1.0
+  multi_image_picker_view: ^3.0.0
+  syncfusion_flutter_pdf: ^29.2.11
+  local_auth: ^2.3.0
+  flutter_secure_storage: ^9.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon.png"
