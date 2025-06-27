@@ -10,9 +10,11 @@
 </p>
 
 ### 🚀 Key Features
-- **Multi-engine OCR pipeline** (EasyOCR → Google Vision fallback 1 → Tesseract fallback 2)
-- **Academic-specific NLP** (BERT fine-tuned on 1000+ academic samples)
-- **Self-healing text processing** with domain-aware correction
+- Multi-Engine OCR with Academic Focus: Combines EasyOCR (primary), Google Vision (fallback), and Tesseract (final fallback) with domain-specific optimizations for University and High School curriculum  
+- Self-Healing & Context-Aware Processing: Features dynamic spell correction (preserves academic terms), grammar-aware reconstruction, and fuzzy matching (85% Levenshtein threshold) to handle low-quality scans and handwritten notes.
+- Hybrid Classification System: Combines fine-tuned BERT models (including ensemble support) with keyword-based fallback for robust predictions.
+- Dynamic Data Handling: Loads, balances, and preprocesses datasets from local and Hugging Face sources with class-weighting for fairness.
+-  End-to-End Pipeline: Trains, evaluates, and saves models, with interactive inference for text/file inputs.
 
 
 ## 💻 Tech Stack
