@@ -41,8 +41,6 @@ Set up Firebase for both iOS and Android platforms, including:
 
 ### AI-Based Subject Classification
 - Uses **Google Gemini** to analyze and classify the content of uploaded PDFs into academic subjects.
-- If Gemini fails, a **custom OCR-based fallback** (combining EasyOCR, Tesseract, and Google Vision) extracts text and infers the subject using fuzzy matching, grammar-aware filtering, and academic keyword detection.
-
 ### Chat System
 - Real-time messaging with other users.
 - Push notifications via Firebase Cloud Messaging.
