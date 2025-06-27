@@ -3,6 +3,48 @@
 </p>
 
 ---
+GreenBooks is a Flutter app that encourages users to donate, recycle, sell, or buy books while promoting environmental awareness. It calculates eco-impact metrics like trees, water, and energy saved, and uses AI to classify uploaded books by subject. Users can interact through real-time chat and earn points for their contributions.
+
+---
+
+## Features
+
+### Authentication
+- Sign up and login using email and password.
+- Supports biometric login (Face ID/Fingerprint).
+- “Remember Me” option for persistent login.
+
+### AI-Based Subject Classification
+- Uses **Google Gemini** to analyze and classify the content of uploaded PDFs into academic subjects.
+- If Gemini fails, a **custom OCR-based fallback** (combining EasyOCR, Tesseract, and Google Vision) extracts text and infers the subject using fuzzy matching, grammar-aware filtering, and academic keyword detection.
+
+### Chat System
+- Real-time messaging with other users.
+- Push notifications via Firebase Cloud Messaging.
+- Red dot and badge indicators for unread messages.
+- Auto-sorts users by most recent message.
+- Tracks reads using a `readBy` system.
+
+### Book Upload and Impact Tracking
+- Users can upload PDF files (notes, textbooks, etc.).
+- Automatically categorized by subject using AI.
+- Calculates environmental metrics:
+  - Trees saved
+  - Energy saved
+  - Water saved
+  - CO₂ emissions reduced
+
+### Points and Rewards
+- Users earn points for each eco-friendly action: donating, uploading, recycling, etc.
+- Points are displayed in the dashboard.
+- Rewards section shows redeemable items based on points.
+
+### Dashboard and UI
+- Dashboard shows personal contribution stats, animated impact counters, and total points.
+- Home screen integrates chat and activity previews.
+- Consistent and clean UI throughout the app.
+
+---
 
 ## 📌 Initial AI Pipeline
 
@@ -32,6 +74,12 @@
   - Containerized with **Google Cloud Run**
 
 ---
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/greenbooks.git
+   cd greenbooks
 
 ## 💻 Tech Stack
 
