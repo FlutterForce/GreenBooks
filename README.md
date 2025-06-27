@@ -6,6 +6,22 @@
 GreenBooks is a Flutter app that encourages users to donate, recycle, sell, or buy books while promoting environmental awareness. It calculates eco-impact metrics like trees, water, and energy saved, and uses AI to classify uploaded books by subject. Users can interact through real-time chat and earn points for their contributions.
 
 ---
+## Prerequisites
+
+Before running the GreenBooks app, make sure the following are set up:
+https://docs.flutter.dev/get-started/install
+Follow the official instructions to install Flutter on your system.
+
+https://firebase.google.com/docs/flutter/setup?platform=ios
+Set up Firebase for both iOS and Android platforms, including:
+
+- Creating a Firebase project
+- Downloading google-services.json (Android)
+- Downloading GoogleService-Info.plist (iOS)
+- Adding them to your Flutter project
+
+---
+---
 ## Installation
 
 1. Clone the repository:
