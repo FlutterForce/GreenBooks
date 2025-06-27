@@ -41,12 +41,12 @@
 ```json
 {
   "OCR Engine": {
-    "Primary": "EasyOCR (CNN-LSTM Hybrid)",
-    "Fallbacks": ["Google Vision API", "Tesseract 5 (LSTM)"],
+    "Primary": "EasyOCR",
+    "Fallbacks": ["Google Vision API", "Tesseract"],
     "Features": [
       "Multi-engine Cascade",
-      "Academic Vocabulary Injection",
-      "90%+ Accuracy on STEM Content"
+      "Academic Vocabulary Enhanced"
+      
     ]
   },
   "NLP Pipeline": {
@@ -183,7 +183,7 @@ ai_project/
 
 ---
 
-## ⚙️ GCloud Deployment Commands (Templated)
+## ⚙️ GCloud Deployment Commands
 
 ```bash
 # Configuration Variables
@@ -217,6 +217,3 @@ gcloud builds submit   --tag "${REGION}-docker.pkg.dev/${PROJECT_ID}/${ORCHESTRA
 gcloud run deploy "${ORCHESTRATION_SERVICE_NAME}"   --image "${REGION}-docker.pkg.dev/${PROJECT_ID}/${ORCHESTRATION_DOCKER_REPO}/${ORCHESTRATION_IMAGE_NAME}:latest"   --platform managed   --region "${REGION}"   --port "${ORCHESTRATION_PORT}"   --allow-unauthenticated   --memory=8Gi   --cpu=2   --timeout=1200s   --set-env-vars CLASSIFICATION_SERVICE_URL="https://your-classification-service-YOUR_SERVICE_HASH.${REGION}.run.app/classify"   --project "${PROJECT_ID}"
 ```
 
----
-
-> ⚠️ **Tip**: Deploy the **Classification Service first**, then copy its deployed URL and inject it into the Orchestration Service's `CLASSIFICATION_SERVICE_URL` variable.
