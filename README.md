@@ -10,7 +10,7 @@ GreenBooks is a Flutter app that encourages users to donate, recycle, sell, or b
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/greenbooks.git
+   git clone https://github.com/FlutterForce/greenbooks.git
    cd greenbooks
 ---
 
