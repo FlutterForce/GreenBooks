@@ -168,7 +168,6 @@ This folder will contain:
 - `vocab.txt`
 - etc.
 
-✅ After this, **Part 1 is complete**.
 
 ---
 
