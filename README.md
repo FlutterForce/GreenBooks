@@ -9,10 +9,13 @@ GreenBooks is a Flutter app that encourages users to donate, recycle, sell, or b
 ## Prerequisites
 
 Before running the GreenBooks app, make sure the following are set up:
+
 https://docs.flutter.dev/get-started/install
+
 Follow the official instructions to install Flutter on your system.
 
 https://firebase.google.com/docs/flutter/setup?platform=ios
+
 Set up Firebase for both iOS and Android platforms, including:
 
 - Creating a Firebase project
@@ -20,7 +23,6 @@ Set up Firebase for both iOS and Android platforms, including:
 - Downloading GoogleService-Info.plist (iOS)
 - Adding them to your Flutter project
 
----
 ---
 ## Installation
 
