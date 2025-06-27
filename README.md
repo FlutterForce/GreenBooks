@@ -48,10 +48,6 @@ GreenBooks is a Flutter app that encourages users to donate, recycle, sell, or b
 
 ##  Initial AI Pipeline
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/fcbd29a9-7635-403f-b5a2-03c14f267d95" alt="Pipeline Diagram" width="400" />
-</p>
-
 ---
 
 ###  Key Features of the System
